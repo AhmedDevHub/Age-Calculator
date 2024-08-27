@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/5661657.png" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+    <!-- Lottie script -->
+</head>
+
+<body>
+    <div class="container py-5">
+        <section class="d-flex justify-content-center align-items-center" style="height: 100vh">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="mb-2 ps-5">
+                        <h1>Find Urs!!</h1>
+                        <h2>Age Calculator</h2>
+                    </div>
+                    <div>
+                        <div class="input-container d-flex mt-4">
+                            <input type="date" class="flex-grow-1" id="dob" placeholder="DD-MM-YYYY" />
+                            <button class="pt-2" onclick="calculateAge()">Calculate</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p id="result"></p>
+                    </div>
+                </div>
+                <div class="col-lg-7 py-4 px-4">
+                    <div id="animation"></div>
+                </div>
+            </div>
+        </section>
+        <span></span>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
