@@ -4,7 +4,7 @@ var animation = lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '/img/Animation - 1724603548727.json' // Actual path to your JSON file
+    path: './js/AnimationCulc.json' // Actual path to your JSON file
 });
 
 function calculateAge() {
